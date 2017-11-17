@@ -11,6 +11,6 @@
 <!ELEMENT position_x (#PCDATA)>
 <!ELEMENT position_y (#PCDATA)>
 <!ATTLIST card card_state (shown | hidden) #REQUIRED
-               id ("PCDATA") #REQUIRED
+               id ("CDATA") #REQUIRED
 >
 ]>
